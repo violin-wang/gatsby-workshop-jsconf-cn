@@ -1,0 +1,1 @@
+{"data":{"allMdx":{"nodes":[{"frontmatter":{"title":"Hello World!","author":"王麟","slug":"hello-world"},"excerpt":"这是我第一篇博客文章。我使用 mdx 写的。"},{"frontmatter":{"title":"Hello JS Conf CN!","author":"王麟","slug":"hello-jsconf-cn"},"excerpt":"这是我第二篇博客文章。欢迎来到 Gatsby Workshop 。"}]}}}
