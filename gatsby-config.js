@@ -5,6 +5,10 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: "Gatsby Workshop",
+    description: "A site we built together during Gatsby workshop!",
+  },
   plugins: [
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
