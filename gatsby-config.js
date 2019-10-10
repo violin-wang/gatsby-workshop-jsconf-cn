@@ -5,5 +5,12 @@
  */
 
 module.exports = {
-  plugins: ["gatsby-plugin-sharp", "gatsby-transformer-sharp"],
+  plugins: [
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-plugin-styled-components",
+      options: {},
+    },
+  ],
 };
