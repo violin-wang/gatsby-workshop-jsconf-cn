@@ -1,5 +1,5 @@
 import React from "react";
-import styled from 'styled-components';
+import styled from "styled-components";
 
 import { Link } from "gatsby";
 
@@ -43,6 +43,9 @@ const Header = () => (
       </NavLink>
       <NavLink activeClassName="current-page" to="/about/">
         关于我
+      </NavLink>
+      <NavLink activeClassName="current-page" to="/contact/">
+        联系我
       </NavLink>
     </nav>
   </HeaderContainer>

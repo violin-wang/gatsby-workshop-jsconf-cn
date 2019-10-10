@@ -1,3 +1,4 @@
+const path = require("path");
 /**
  * Configure your Gatsby site with this file.
  *
@@ -17,5 +18,13 @@ module.exports = {
       options: {},
     },
     "gatsby-plugin-react-helmet",
+    {
+      resolve: "gatsby-plugin-mdx",
+      options: {
+        defaultLayouts: {
+          default: path.resolve("./src/components/Layout.js"),
+        },
+      },
+    },
   ],
 };
