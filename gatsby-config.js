@@ -6,6 +6,7 @@ const path = require("path");
  */
 
 module.exports = {
+  pathPrefix: "/gatsby-workshop-jsconf-cn",
   siteMetadata: {
     title: "Gatsby Workshop",
     description: "A site we built together during Gatsby workshop!",
