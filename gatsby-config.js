@@ -58,5 +58,12 @@ module.exports = {
       },
     },
     "gatsby-transformer-json",
+    {
+      resolve: "gatsby-plugin-remote-images",
+      options: {
+        nodeType: "BuildingsJson",
+        imagePath: "image",
+      },
+    },
   ],
 };
