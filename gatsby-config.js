@@ -65,5 +65,18 @@ module.exports = {
         imagePath: "image",
       },
     },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        name: "Gatsby Workshop",
+        short_name: "GatsbyJS",
+        short_url: "/",
+        background_color: "#6b37bf",
+        theme_color: "#6b37bf",
+        display: "standalone",
+        icon: "images/icon.png",
+      },
+    },
+    "gatsby-plugin-offline",
   ],
 };
