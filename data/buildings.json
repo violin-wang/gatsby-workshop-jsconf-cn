@@ -1,0 +1,52 @@
+[
+  {
+    "image": "https://uploads.wework.cn/building/huarunzhidi/456d0520-f327-11e8-a0e4-1202be33576a.jpg?imageView2/2/w/500",
+    "name": "华润置地大厦D座",
+    "slug": "huarunzhidi"
+  },
+  {
+    "image": "https://uploads.wework.cn/building/damazhan/3aed6f78-5a0f-11e9-b53a-0ec6db7d2a3c.jpg?imageView2/2/w/500",
+    "name": "大马站商业中心",
+    "slug": "damazhan"
+  },
+  {
+    "image": "https://uploads.wework.cn/building/shenyeshangcheng/602459a0-ae29-11e9-a057-0ec6db7d2a3c.jpg?imageView2/2/w/500",
+    "name": "深业上城Loft",
+    "slug": "shenyeshangcheng"
+  },
+  {
+    "image": "https://uploads.wework.cn/building/zongfulu/786ab1a6-83b5-11e9-8584-0ec6db7d2a3c.jpg?imageView2/2/w/500",
+    "name": "总府路31号",
+    "slug": "zongfulu"
+  },
+  {
+    "image": "https://uploads.wework.cn/building/baifuguoji/a91d816e-611b-11e9-9e81-0ec6db7d2a3c.jpg?imageView2/2/w/500",
+    "name": "百富国际大厦",
+    "slug": "baifuguoji"
+  },
+  {
+    "image": "https://uploads.wework.cn/building/yananlu/804bef0e-5d35-11e8-9d73-1202be33576a.jpg?imageView2/2/w/500",
+    "name": "延安路292号",
+    "slug": "yananlu"
+  },
+  {
+    "image": "https://uploads.wework.cn/building/dongchanglu/e41b4d7c-4fce-11e9-95cd-0ec6db7d2a3c.jpg?imageView2/2/w/500",
+    "name": "富汇大厦",
+    "slug": "dongchanglu"
+  },
+  {
+    "image": "https://uploads.wework.cn/building/sanlitun/d62fc15c-7ee1-11e8-b715-1202be33576a.jpg?imageView2/2/w/500",
+    "name": "三里屯路11号",
+    "slug": "sanlitun"
+  },
+  {
+    "image": "https://uploads.wework.cn/building/financialcenter/d77c959c-893d-11e8-936c-1202be33576a.jpg?imageView2/2/w/500",
+    "name": "国金中心",
+    "slug": "financialcenter"
+  },
+  {
+    "image": "https://uploads.wework.cn/building/weihailu/4f6fd5d6-0899-11e7-9462-0a488af3e541.jpg?imageView2/2/w/500",
+    "name": "威海路696号",
+    "slug": "weihailu"
+  }
+]
