@@ -9,6 +9,13 @@ const usePosts = () => {
             title
             author
             slug
+            image {
+              sharp: childImageSharp {
+                fixed(width: 100, height: 100) {
+                  ...GatsbyImageSharpFixed_withWebp
+                }
+              }
+            }
           }
           excerpt
         }
@@ -21,6 +28,7 @@ const usePosts = () => {
     author: post.frontmatter.author,
     slug: post.frontmatter.slug,
     excerpt: post.excerpt,
+    image: post.frontmatter.image
   }));
 };
 
