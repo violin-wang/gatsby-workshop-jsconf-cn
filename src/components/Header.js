@@ -47,6 +47,9 @@ const Header = () => (
       <NavLink activeClassName="current-page" to="/contact/">
         联系我
       </NavLink>
+      <NavLink activeClassName="current-page" to="/buildings/">
+        地点
+      </NavLink>
     </nav>
   </HeaderContainer>
 );
