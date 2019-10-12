@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{231:function(e,n,t){"use strict";t.r(n);var a=t(0),l=t.n(a),c=t(111),r=t(228);n.default=function(){return l.a.createElement(r.a,null,l.a.createElement("h1",null,"关于我"),l.a.createElement("p",null,"这个是我的个人站点。"),l.a.createElement(c.a,{to:"/"},"←返回首页"))}}}]);
-//# sourceMappingURL=component---src-pages-about-js-9dfe767e56e6fd1b589b.js.map
