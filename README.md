@@ -1,97 +1,125 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's hello-world starter
-</h1>
+# Gatsby Workshop JSConf CN
 
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+## 依赖环境
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+- [ ] Node.js
+- [ ] npm
+- [ ] git
+- [ ] gatsby-cli
 
-## 🚀 Quick start
+### 安装gatsby-cli
 
-1.  **Create a Gatsby site.**
+```shell
+npm install -g gatsby-cli  --registry=https://registry.npm.taobao.org
+```
 
-    Use the Gatsby CLI to create a new site, specifying the hello-world starter.
 
-    ```shell
-    # create a new Gatsby site using the hello-world starter
-    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
-    ```
+## 项目初始化
 
-1.  **Start developing.**
+```shell
+SHARP_DIST_BASE_URL=https://npm.taobao.org/mirrors/sharp-libvips/v8.8.1/ gatsby new gatsby-workshop-jsconf-cn https://github.com/violin-wang/gatsby-workshop-jsconf-cn-starter
+```
 
-    Navigate into your new site’s directory and start it up.
+## 最终效果
 
-    ```shell
-    cd my-hello-world-starter/
-    gatsby develop
-    ```
+![Final Page](readme-images/final-page.gif)
 
-1.  **Open the source code and start editing!**
+## 步骤实现
 
-    Your site is now running at `http://localhost:8000`!
+### 步骤1-页面和布局
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+#### 初始化
 
-    Open the `my-hello-world-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+```shell
+git checkout step1-start
+```
+#### Todo
 
-## 🧐 What's inside?
+- [ ] 添加页面
+- [ ] 添加布局组件
+- [ ] 站点SEO信息
+- [ ] 添加contact页面
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+#### 最终效果
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+- 首页
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+![Home Page](./readme-images/2019-10-12-17-12-31.png)
+- 关于我页面
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+![About Page](./readme-images/2019-10-12-17-11-31.png)
+- 站点SEO信息
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+![SEO](./readme-images/2019-10-12-17-19-11.png)
+- 联系我页面
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+![Contact Page](./readme-images/2019-10-12-17-16-29.png)
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+### 步骤2-博客文章
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+#### 初始化
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+```shell
+git checkout step2-start
+```
 
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
+#### Todo
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+- [ ] 添加博客文章
+- [ ] 博客文章展示
+- [ ] 首页文章列表
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+#### 最终效果
 
-12. **`README.md`**: A text file containing useful reference information about your project.
+- 首页文章列表
 
-## 🎓 Learning Gatsby
+![Home Page Post List](./readme-images/2019-10-12-17-59-51.png)
+- 文章详情页
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+![Post Detail Page](./readme-images/2019-10-12-18-01-18.png)
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+### 步骤3-图片和数据
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+#### 初始化
 
-## 💫 Deploy
+```shell
+git checkout step3-start
+```
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
+### Todo
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+- [ ] 首页Banner
+- [ ] 添加文章图片
+- [ ] 添加地点页面
+
+#### 最终效果
+
+- 首页Banner
+
+![Home Banner](./readme-images/2019-10-12-18-02-36.png)
+- 文章详情页
+
+![Post Detail Page](./readme-images/2019-10-12-18-03-46.png)
+- 地点列表页面
+  
+![Locations List](./readme-images/2019-10-12-18-04-59.png)
+
+### 步骤4-离线和部署
+
+#### 初始化
+
+```shell
+git checkout step4-start
+```
+
+#### Todo
+
+- [ ] 支持离线浏览
+- [ ] 部署到gh-pages
+
+#### 最终效果
+
+- 离线浏览
+
+![Offline](./readme-images/2019-10-12-18-06-35.png)
